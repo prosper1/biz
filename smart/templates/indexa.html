@@ -1,0 +1,24 @@
+{% extends 'index.html'%}
+{% block Board%}
+<div class="handler">
+			
+			
+			<div class="Board" >
+				<div class="flock" >
+					<h4>Peeps On Leave</h4>
+					<hr>
+					{% for post in absent %}
+					<div class="row">
+					<div class="col-md-6">
+					<p align=left>{{}}</p>
+					</div>
+					<div class="col-md-6">
+					<p align=right>{{}}</p>
+					</div>
+					</div>
+					{% endfor %}
+				</div>
+			
+			</div>
+		</div>
+{% endblock %}

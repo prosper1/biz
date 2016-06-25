@@ -1,0 +1,1105 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src: url("../fonts/codropsicons/codropsicons.eot");
+  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
+}
+
+a:hover{
+	text-decoration:none;
+}
+body {
+  min-height: 500px;
+  padding-top: 70px;
+  font-family: "Martel Sans", Arial, sans-serif;
+}
+
+
+/*Genral page*/
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background:white; 
+   
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: gray; 
+}
+
+.LoginBoxes
+{
+	background-color:#F2F2F2;
+	border-radius:10px;
+	padding:15px;
+	
+}
+
+
+.navbar-new{
+	background:white;
+	border:0;
+
+	
+}
+
+.navbar-new a{
+	color:grey;
+}
+
+
+
+.ButtonE{
+text-decoration:none;
+color:white;
+font-size:medium;
+font-weight:bold;
+padding:10px;
+min-width:200px;
+max-width:200px;
+border-radius:20px;	
+	
+		background-color:black;
+		        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #AA0004 30%, red 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #AA0004 30%, red 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #AA0004 30%, red 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #AA0004), color-stop(1, red));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #AA0004 30%, red 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #AA0004 30%, red 100%);
+
+}
+
+.ButtonM{
+text-decoration:none;
+color:white;
+font-size:medium;
+font-weight:bold;
+padding:10px;
+min-width:200px;
+max-width:200px;
+border-radius:20px;	
+	
+		background-color:black;
+		        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #0000FF 30%, #0066FF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #0000FF 30%, #0066FF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #0000FF 30%, #0066FF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #0000FF), color-stop(1, #0066FF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #0000FF 30%, #0066FF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #0000FF 30%, #0066FF 100%);
+
+}
+
+.ButtonB{
+text-decoration:none;
+color:#1A1A1A;
+font-size:medium;
+font-weight:bold;
+padding:10px;
+width:100%;
+min-width:200px;
+max-width:200px;
+border-radius:20px;	
+	
+		background-color:black;
+		        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, White 30%, silver 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, white), color-stop(1, silver));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, white 30%, sliver 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, white 30%, sliver 100%);
+
+	
+}
+
+.ButtonN{
+
+	color:white;
+	text-decoration:none;
+	position:relative;
+	padding:8px;
+	border:0px;
+	
+}
+
+.Button{
+background-color:black;
+cursor:pointer;
+	        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, black 30%, #1A1A1A 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, black 30%, #1A1A1A 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, black 30%, #1A1A1A 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, black), color-stop(1, #1A1A1A));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, black 30%, #1A1A1A 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, black 30%, #1A1A1A 100%);
+
+	color:white;
+	width:10%;
+	text-decoration:none;
+	position:relative;
+	padding:10px;
+	border:0px;
+	border-radius:10px;
+}
+.ButtonW a:hover{
+	color:#0066FF;
+	border:5px blue solid;
+}
+.ButtonW{
+background-color:white;
+cursor:pointer;
+	        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, white), color-stop(1, silver));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, white 30%, silver 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, white 30%, silver 100%);
+
+	color:Gray;
+	width:10%;
+	text-decoration:none;
+	position:relative;
+	padding:10px;
+	border:0px;
+	border-radius:10px;
+}
+
+
+.shad{
+	max-width:60px;min-width:60px;height:60px;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.shadbut{
+	max-width:60px;min-width:60px;height:60px;
+}
+
+.shadowwhr{
+	padding:5px;
+	background-color:white;
+
+	/*border:5px #1A1A1A solid;*/
+	/*CSS3 Box Shadow 
+    -moz-box-shadow: 2px 2px 4px silver;
+    -webkit-box-shadow: 2px 2px 4px silver;
+    -o-box-shadow: 2px 2px 4px silver;
+    box-shadow: 2px 2px 4px silver;*/
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0 ,0,0,0.19); 
+
+}
+
+
+
+/*Rating bar code*/
+
+.RateingImageTop{
+	position:relative;
+	z-index:10;
+	height:80px;
+}
+
+
+.RateingBackTop{
+	position:absolute;
+	height:80px;
+
+	background-color:#0066FF;
+	/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+	color:#FF0909;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(left, #FF0909 0%, #0066FF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #FF0909 0%, #0066FF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #FF0909 0%, #0066FF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF0909), color-stop(1, #0066FF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left, #FF0909 0%, #0066FF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to right, #FF0909 0%, #0066FF 100%);	/*
+	background-image: -moz-linear-gradient(left, #FF0404 10%,#002EB7) ;
+	background-image: -webkit-gradient(linear, left center, right center, color-stop(0,#FF0404), color-stop(1, #002EB7));
+	background-image: -o-linear-gradient(left ,#FF0404 10%,#002EB7);
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColor=blue, EndColorStr=#FF0404);*/
+
+}
+
+.RateingImage{
+	
+	z-index:10;
+	width:100%;
+	margin-top:-130px;
+	position:relative;
+	height:130px;
+}
+
+.RateingBack{
+	position:relative;
+	height:130px;
+	z-index:-5;
+	
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(left, #FF0404 0%, #002EB7 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #FF0404 0%, #002EB7 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #FF0404 0%, #002EB7 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF0404), color-stop(1, #002EB7));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left, #FF0404 0%, #002EB7 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to right, #FF0404 0%, #002EB7 100%);	/*
+	background-image: -moz-linear-gradient(left, #FF0404 10%,#002EB7) ;
+	background-image: -webkit-gradient(linear, left center, right center, color-stop(0,#FF0404), color-stop(1, #002EB7));
+	background-image: -o-linear-gradient(left ,#FF0404 10%,#002EB7);
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColor=blue, EndColorStr=#FF0404);
+*/
+}
+
+
+
+
+select{
+	padding:5px;
+	border-radius:10px;
+	margin-top:5px;
+	margin-bottom:5px
+
+
+}
+
+input{
+	padding:1%;
+	width:98%;
+	border-radius:10px;
+	border:1px silver solid;
+	}
+
+textarea{
+	padding:1%;
+	border-radius:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:98%;
+
+
+}
+
+.bottomfeed{
+position:fixed;
+bottom:0%;
+width:100%;
+padding-bottom:0.5%;
+
+max-height:30px;
+font-size:large;
+color:gray;
+border-top:2px silver solid;
+border-bottom:2px silver solid;
+overflow:hidden;
+
+z-index:100;
+opacity :0.95;
+filter :alpha(opacity=95);
+
+	/* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+    
+	        		/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, white 30%, silver 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, white), color-stop(1, silver));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, white 30%, silver 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, white 30%, silver 100%);
+
+
+
+}
+
+
+.bottomfeed :hover{
+
+
+z-index:100;
+opacity :1;
+filter :alpha(opacity=100);
+
+
+
+}
+
+.Feedboximage{
+	width:100px;
+	height:100px;
+	position:relative;
+	margin-bottom:-9%;
+	
+}
+.StatusSize{
+	border-right:thin silver solid;
+	padding-left:7%;
+	padding-right:7%; 
+	padding-bottom:7%; 
+
+	border-left:thin silver solid;
+	max-width:550px;
+	
+	   /*CSS3 Box Shadow */
+    -moz-box-shadow: 0px 4px 4px #444;
+    -webkit-box-shadow: 0px 4px 4px #444;
+    -o-box-shadow: 0px 4px 4px #444;
+    box-shadow: 0px 4px 4px #444;
+
+}
+
+
+
+.Propic
+{
+    
+    background:white;
+    border-radius:1000px;
+	width:100px;
+	padding:2px;
+	background:#ffffff;
+	height:100px;
+	margin:10px;
+	
+	background: -webkit-linear-gradient(-30deg, #0066ff, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-30deg, #0066ff, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-30deg, #0066ff, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-30deg, #0066ff, red); /* Standard syntax (must be last) */
+
+
+
+}
+
+.Propics
+{
+    
+    background:white;
+    border-radius:100px;
+	width:50px;
+	padding:2px;
+	background:#ffffff;
+	height:50px;
+	margin-top:-10px;
+
+	background: -webkit-linear-gradient(-30deg, #0066ff, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-30deg, #0066ff, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-30deg, #0066ff, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-30deg, #0066ff, red); /* Standard syntax (must be last) */
+
+	
+
+}
+
+.Propicscom
+{
+    
+    background:white;
+    border-radius:100px;
+	width:50px;
+	padding:2px;
+	background:#ffffff;
+	height:50px;
+
+	background: -webkit-linear-gradient(-30deg, #0066ff, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-30deg, #0066ff, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-30deg, #0066ff, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-30deg, #0066ff, red); /* Standard syntax (must be last) */
+	
+	
+
+}
+
+
+.timestamp{
+background:#d9d6d6;
+color:white;
+border-radius:500px;
+text-align:center;
+padding-top:10px;
+font-size:30px;
+width:50px;
+height:50px;
+max-width:50px;
+max-height:50px;
+
+	
+}
+
+
+.UserNameCol{
+	color:#0099FF;
+	text-decoration:none;
+}
+
+.UserNameCol a:hover{
+	color:blue;
+	text-decoration:none;
+}
+
+
+.soc-nav-icons{;
+	height:35px;
+	
+}
+
+
+/*.soc-nav-icons_block{
+	max-height:30px;
+	overflow:hidden;	
+}*/
+
+.nottext{
+
+padding:5px 5px 5px 5px;	
+}
+
+.Unoti{
+	background-color:#808080;
+	padding:10px 5px 10px 5px;
+	color:white;
+	width:100%;
+	padding:5px;
+	cursor:pointer;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+
+
+.Unotir{
+	/*border:2px #F0F0F0 solid;*/
+	background:#F9F9F9;
+	padding:10px 5px 10px 5px;
+	color:#1A1A1A;
+	width:100%;
+	padding:5px;
+	cursor:pointer;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+
+
+
+.noticount{
+	color:gray;
+	position:absolute;
+	text-align:center;
+	font-weight:bolder;
+	background:white;
+	border-radius:100px;
+}
+
+.messicount{
+	color:gray;
+	position:absolute;
+	text-align:center;
+	font-weight:bolder;
+	background:white;
+	border-radius:100px;
+	
+
+}
+
+
+.More_Section_Info
+{
+	
+	position:relative;
+	width:90%;
+	margin-left:5%;
+	border:5px #CCCCCC solid ;
+	background-color:white;
+	padding:2%;
+	border-radius:10px;/*
+	background-image: -moz-linear-gradient(left, black 30%,Gray) ;
+	background-image: -webkit-gradient(linear, left center, right center, color-stop(0,black), color-stop(1,Gray));
+	background-image: -o-linear-gradient(left ,black 30%, Gray);
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColor=0, EndColorStr=gray);
+	*/
+
+}
+
+
+
+.hiddenN{
+position:absolute;
+	opacity :0.1;
+	filter :alpha(opacity=10); /* For IE8 and earlier*/
+	color:white;
+
+}
+
+
+.BackC{
+	position:fixed;
+	top:0px;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:140;
+	
+	opacity :0.9;
+	filter :alpha(opacity=90); /* For IE8 and earlier*/
+	color:white;
+
+}
+
+.BackU{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	z-index:140;
+	background:#FFFFFF;
+	opacity :0.5;
+	filter :alpha(opacity=50); /* For IE8 and earlier*/
+	
+
+}
+
+.notibox,.messbox,.notiboxm,.messboxm,.searchm,.search,.setting_optm,.uploadm,.setting_opt,.upload,.statusup{
+
+z-index:301;
+
+	border-radius:0px 0px 10px 10px;
+	 /* CSS3 Box Shadow */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+
+
+	
+}
+
+
+.backdrop1{
+	background:gray;
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index:150;
+	top:0;
+	left:0;
+	
+	opacity :0.85;
+	filter :alpha(opacity=85);
+}
+
+
+
+
+
+
+
+
+
+
+/*Login Home Page*/
+
+
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: black;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+.intro-selfography {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../Selfography/Images/Selfography_Home.JPG') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+
+.intro-header-track {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../Logo_icons/Headers_Icons/Track_Home.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+.intro-header-event {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../Logo_icons/Headers_Icons/Events_Home.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+.intro-header-kwstg{
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../KWSTG/Logo_icons/KWSTG_Home.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+.intro-header-myc{
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    height:100%;
+    top:0;
+    position:relative;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../MYC/Logo_icons/MYC_Home.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+
+.intro-header-vops{
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    height:100%;
+    top:0;
+    position:relative;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../VOPS/Logo_icons/MYC_Home.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+
+.intro-header-megacafe{
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    height:100%;
+    top:0;
+    position:relative;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../MegaCafe/img/cafe_del_logo.png') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+
+.intro-header-basketball{
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    height:100%;
+    top:0;
+    position:relative;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../Logo_icons/Headers_Icons/basketball.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top:-10px;
+}
+
+
+
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 7%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+
+.banner {
+    padding: 50px 0;
+    color: #f8f8f8;
+    background: black;
+    background-size: cover;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    
+
+}
+
+@media(max-width:500px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    
+    
+	.navbar-fixed-top{
+	position:fixed;
+	margin-top:0;
+	}
+	
+
+
+
+}
+
+@media(max-width:350px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    
+    
+	.navbar-fixed-top{
+	position:absolute;
+	background:black;
+	margin-top:0;
+	}
+	
+
+
+
+}
+
+
+
+
+	/*Show shadow as user scrolls down*/
+	.top-nav-collapse{
+	background:black;
+	opacity :0.80;
+	filter :alpha(opacity=80); /* For IE8 and earlier*/
+	
+
+
+	
+    /* CSS3 Box Shadow
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444; */
+    }
+    
+    /*Show shadow as user scrolls down*/
+	.top-nav-collapse:hover{
+	background:black;
+	opacity :0.98;
+	filter :alpha(opacity=98); /* For IE8 and earlier*/
+	
+
+
+	
+    /* CSS3 Box Shadow*/
+    -moz-box-shadow: 2px 2px 4px #ccc;
+    -webkit-box-shadow: 2px 2px 4px #ccc;
+    -o-box-shadow: 2px 2px 4px #ccc;
+    box-shadow: 2px 2px 4px #ccc; 
+    }
+
+    
+    
+    /***
+    Date pickers
+   */
+   
+   .blueredhr{
+   	height:3px;
+    background: -webkit-linear-gradient(-90deg, red, #0066ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, red, #0066ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, red, #0066ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, red, #0066ff); /* Standard syntax (must be last) */
+}
+    
+    .btnCreate{
+	width:100%;
+	color:#1A1A1A;
+	border:0;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.createNavSect{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	width:100%;
+	background:white;
+	padding-top:10px;
+	
+}
+
+.hidd{
+	position:absolute;
+	visibility:hidden;
+}
+
+.appsection{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	right:0;
+	padding:1%;
+	z-index:200;
+	background:white;
+	padding:7px;
+	opacity :0.95;
+	filter :alpha(opacity=95); /* For IE8 and earlier*/
+	
+
+}
+
+.navLink{
+	color:#808080;
+	font-weight:bold;
+}
+
+

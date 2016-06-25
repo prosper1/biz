@@ -1,0 +1,174 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.headbar{
+	background:#2d1048;
+}
+
+.onbody{
+	border-style: solid;
+	border-color:#D9D7D7;
+	background:#EBE6E6;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.event{
+	margin-top:10px;
+	border-style:solid;
+	border-color:#4EADCD;
+	border-width:1px;
+	box-shadow: 2px 2px 2px silver;
+}
+.eventheader{
+	border-style: double;
+	border-color:#4EADCD;
+	background:#2d1048;
+}
+.venue{
+	border-style: solid;
+	border-color:#00A7DE;
+	background:#501588;
+	border-width: 1px;
+}
+.date{
+	border-style: solid;
+	border-color:#00A7DE;
+	background:#781FCE;
+	border-width: 0.5px;
+}
+
+.activitybar{
+	max-height: 100;
+	margin-left: 20px;
+	border-style: solid;
+	border-color: #D9D7D7;
+	border-width: 1px;
+	background:#EBE6E6;
+	box-shadow: 2px 2px 2px silver;
+}
+.activityheader{
+	margin-top: 0;
+	background:#2D1048;
+}
+
+.tweetflow{
+	border-style: dashed;
+	border-color:white;
+	font-size:10;
+	background:silver
+}
+.btnCreate{
+	width:100%;
+	color:white;
+	background:#781FCE
+	border:0;
+	box-shadow: 2px 2px 2px silver;
+	margin-top:1px;
+	margin-bottom: 10px;
+	margin-left:20px;
+}
+.butt{
+	color:white;
+	font-style: oblique;
+	background:#781FCE;
+	box-shadow: 2px 2px 2px silver;
+	padding-bottom: 10px
+	margin-bottom: 5px;
+	
+}
+.butt:hover{
+	color:red;
+	backgroung:purple;
+}
+
+.color{
+	background:#4D4D4D;
+	color:#800080;
+}
+.newpost{
+	background:silver;
+	box-shadow:2px 2px 2px gold;
+	display: block;
+	
+}
+
+.new-header{
+	background:azure;
+	color:purple;
+	
+}
+.buttox{
+	background:#2d1048;
+	color:whitesmoke;
+	width: 100%;
+}
+.facebook{
+	background-color:blue;
+	color:#800080;
+	width: 100%;
+}
+.bg{
+		
+		background: #348cb2 url("{% static "image/1.jpg" %}");
+	
+}
+.tb{
+	width: 100%;
+}
+
+.heights{
+	height: 40px;
+	background:#2d1048;
+	color: whitesmoke;
+	padding-left: 120px;
+	padding-top: 10px;
+	width: 100%;
+	
+}
+.profName{
+	color: purple;
+	background-color: silver;
+	padding-left: 5px;
+	
+}
+.login-text input[type="text"] {
+    font-size: 1em;
+    color: #ccc;
+    padding:0.7em 1em 0.7em 2.5em;
+    width: 87%;
+    border: 1px solid #ccc;
+    outline: none;
+    display: block;
+    border-radius: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.shadow{
+	box-shadow:2px 2px 2px purple;
+}
+
+.handler{
+	color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color:#292F33;
+	padding-left:2px;
+}
+.flock{
+	padding-bottom:5px;
+}
+.dot{
+	margin:20px;
+	font-style: oblique;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
